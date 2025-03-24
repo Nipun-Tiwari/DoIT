@@ -1,0 +1,9 @@
+.Mbody {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  min-height: 0;
+  height: auto;
+  width: 90%;
+  align-items: first baseline;
+}

@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.sideBar {
+  margin-top: 2vh;
+  background: var(--shade-color);
+  width: 30%; /* 30% of parent (Mbody) */
+  height: auto; /* Full height of viewport */
+  display: flex;
+  justify-content: center;
+  padding: 10px; /* Add some padding */
+}
+
+.sideMenu {
+  display: flex;
+  flex-direction: column;
+  width: 90%; /* 80% of .sideBar */
+  height: auto;
+  margin-top: 2vh;
+  padding: 0px;
+  align-items: center;
+  gap: 20px; /* Space between children */
+}
+
+.Pic {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+#username {
+  margin: 10px 0;
+}
+
+.stats {
+  width: 100%; /* Full width of .sideMenu */
+  height: auto; /* Let height adjust to content */
+  margin: 1% 0;
+  padding: 10px;
+  text-align: center;
+}
+.chart-container {
+  /* position: relative; */
+  width: 100%; /* Full width of .stats */
+  /* max-width: 200px; Cap the chart width */
+  /* height: 200px; */
+  height: 200px;
+  margin: 10px auto; /* Center horizontally */
+}
+
+canvas {
+  max-width: 100%;
+  height: 256px;
+}

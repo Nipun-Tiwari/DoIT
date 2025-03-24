@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+.App {
+  font-family: "Sen", sans-serif;
+  text-align: center;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+:root {
+  --bg-color: rgba(255, 255, 255, 0.9);
+  --shade-color: linear-gradient(
+    0deg,
+    rgba(53, 121, 55, 0.1) 0%,
+    rgba(208, 255, 210, 0.1) 100%
+  );
+  --font-color: #1b281b;
+  --add-task-btn: rgba(53, 121, 55, 0.16);
+  --add-task-color: #357937;
+  --pie-done: rgba(63, 145, 66, 1);
+  --pie-todo: rgba(20, 46, 21, 1);
+  --pie-done-hover: rgba(50, 180, 55, 1); /* Brighter Green */
+  --pie-todo-hover: rgba(30, 80, 35, 1); /* Deep Forest Green */
+}
+
+.dark-mode {
+  --bg-color: rgba(35, 35, 35, 0.9);
+  --shade-color: #2f3630;
+  --font-color: #e2e2e2;
+  --add-task-btn: rgba(53, 121, 55, 0.88);
+  --add-task-color: rgba(207, 207, 207, 1);
+  --pie-done: rgba(160, 237, 164, 1);
+  --pie-todo: rgba(63, 145, 66, 1);
+}
